@@ -15,9 +15,13 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      //Desactiva la etiqueta de debug
       debugShowCheckedModeBanner: false,
+      //Define el nombre de la app que se establecio en la clase strings
       title: AppStrings.appName,
+      //Definicion de la ruta inicial
       initialRoute: Routes.splash,
+      //Definicion de todas las rutas con sus respectivas clases
       routes: {
         Routes.splash: (context) => const SplashScreen(),
         Routes.home: (context) => const HomeScreen(),

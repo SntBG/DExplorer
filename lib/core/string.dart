@@ -1,3 +1,4 @@
+// Clase de los etxtos de la app o Strings
 class AppStrings {
   static const String appName = "D Explorer";
   static const String name = "David Santiago Beltran Galeano";
